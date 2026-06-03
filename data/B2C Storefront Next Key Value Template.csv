@@ -1,8 +1,8 @@
 Name,Example Value,Handlebar,Variable in .env,Sourced from
-projectSlug,zarrth-sfn-implready,{YourProjectSlug},MRT_PROJECT in.env,Managed Runtime - your project name
-environment,zarrth-sfn,{YourEnvironment},MRT_TARGET in.env,Managed Runtime - your environment under the project
-clientId,09e75e19-f7c9-42ef-8575-d586c6621d9f,{YourClientId},PUBLIC__app__commerce__api__clientId in.env,.csv file or SLAS Admin Tool
+projectSlug,,{YourProjectSlug},MRT_PROJECT in.env,Managed Runtime - your project name
+environment,,{YourEnvironment},MRT_TARGET in.env,Managed Runtime - your environment under the project
+clientId,,{YourClientId},PUBLIC__app__commerce__api__clientId in.env,.csv file from Option A or SLAS Admin Tool
 siteId,MarketStreet,{YourSiteId},PUBLIC__app__commerce__api__siteId in.env,Business Manager → Administration → Sites → Manage Sites
-organizationId,f_ecom_zzpe_051,{YourOrganizationId},PUBLIC__app__commerce__api__organizationId in.env,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
-shortCode,kv7kzm78,{YourShortCode},PUBLIC__app__commerce__api__shortCode in.env,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
+organizationId,,{YourOrganizationId},PUBLIC__app__commerce__api__organizationId in.env,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
+shortCode,,{YourShortCode},PUBLIC__app__commerce__api__shortCode in.env,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
 defaultSiteId,MarketStreet,{YourDefaultSiteId},PUBLIC__app__defaultSiteId in.env,id values configured incommerce.sites
