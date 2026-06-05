@@ -1,8 +1,10 @@
-Name,Example Value,Handlebar,Variable in .env,Sourced from
-projectSlug,,{YourProjectSlug},MRT_PROJECT in.env,Managed Runtime - your project name
-environment,,{YourEnvironment},MRT_TARGET in.env,Managed Runtime - your environment under the project
-clientId,,{YourClientId},PUBLIC__app__commerce__api__clientId in.env,.csv file from Option A or SLAS Admin Tool
-siteId,MarketStreet,{YourSiteId},PUBLIC__app__commerce__api__siteId in.env,Business Manager → Administration → Sites → Manage Sites
-organizationId,,{YourOrganizationId},PUBLIC__app__commerce__api__organizationId in.env,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
-shortCode,,{YourShortCode},PUBLIC__app__commerce__api__shortCode in.env,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
-defaultSiteId,MarketStreet,{YourDefaultSiteId},PUBLIC__app__defaultSiteId in.env,id values configured incommerce.sites
+Name,Value,Handlebar,Environment variable (.env file or Managed Runtime),Sourced from
+projectSlug,,{YourProjectSlug},MRT_PROJECT,Business Manager post scaffold or Managed Runtime - your project name
+environment,,{YourEnvironment},MRT_TARGET,Business Manager post scaffold or Managed Runtime - your environment under the project
+clientId,,{YourClientId},PUBLIC__app__commerce__api__clientId,.csv file from Option A or SLAS Admin tool
+slasSecret,,{YourSlasSecret},COMMERCE_API_SLAS_SECRET,.csv file from Option A or SLAS Admin tool - must be collected on creation if using SLAS Admin
+privateKeyEnabled,true ,{YourPrivateKeyBoolean},PUBLIC__app__commerce__api__privateKeyEnabled,Hard code to true
+siteId,MarketStreet,{YourSiteId},PUBLIC__app__commerce__api__siteId,Business Manager → Administration → Sites → Manage Sites
+organizationId,,{YourOrganizationId},PUBLIC__app__commerce__api__organizationId,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
+shortCode,,{YourShortCode},PUBLIC__app__commerce__api__shortCode,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
+defaultSiteId,MarketStreet,{YourDefaultSiteId},PUBLIC__app__defaultSiteId,Business Manager: Site ID value for the one scaffolded as a storefront
