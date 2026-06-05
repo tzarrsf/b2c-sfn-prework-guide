@@ -32,11 +32,11 @@ td.TextItemInsigDel { color: #000000; background-color: #EEEEFF; text-decoration
 td.TextItemSigAdd { color: #000000; background-color: #FFE3E3; }
 td.TextItemSigDel { color: #000000; background-color: #FFE3E3; text-decoration: line-through; }
 </style>
-<title>.env.default → .env June 4, 2026</title>
+<title>.env.default → .env June 5, 2026</title>
 </head>
 <body>
-.env.default → .env June 4, 2026<br>
-Produced: 6/4/2026 6:25:35 PM<br>
+.env.default → .env June 5, 2026<br>
+Produced: 6/5/2026 6:28:16 AM<br>
 &nbsp; &nbsp;
 <br>
 Mode:&nbsp; Differences, With Context &nbsp;
@@ -47,8 +47,88 @@ Right file: C:\Users\tzarr\sfn-june-workshop\.env &nbsp;
 <br>
 <table class="fc" cellspacing="0" cellpadding="0">
 <tr class="SectionBegin">
-<td class="TextItemSame"># See docs/README-CONFIG.md for complete documentation</td>
+<td class="TextItemSame"># ============================================================================</td>
 <td class="AlignCenter">=</td>
+<td class="TextItemSame"># ============================================================================</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># Managed Runtime Deployment Configuration</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># Managed Runtime Deployment Configuration</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># ============================================================================</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># ============================================================================</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># Project slug - the unique identifier for your project on Managed Runtime</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># Project slug - the unique identifier for your project on Managed Runtime</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame"># If not set, defaults to package.json name</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># If not set, defaults to package.json name</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod">MRT_PROJECT=<span class="TextSegInsigDiff">m</span><span class="TextSegSigDiff">y-project-slug</span></td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemSigMod">MRT_PROJECT=<span class="TextSegInsigDiff">M</span><span class="TextSegSigDiff">a</span><span class="TextSegSigDiff">rk</span><span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">t</span><span class="TextSegSigDiff">Street</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># Deploy target environment (e.g., production, staging, development)</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># Deploy target environment (e.g., production, staging, development)</td>
+</tr>
+<tr class="SectionEnd">
+<td class="TextItemSame"># If not set, deployment will upload without deploying to a specific target</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># If not set, deployment will upload without deploying to a specific target</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextItemSigMod">MRT_TARGET=<span class="TextSegSigDiff">d</span><span class="TextSegSigDiff">ev</span><span class="TextSegSigDiff">elopm</span><span class="TextSegSigDiff">ent</span></td>
+<td class="AlignCenter">&lt;&gt;</td>
+<td class="TextItemSigMod">MRT_TARGET=<span class="TextSegSigDiff">marketstre-b1fcea6f</span></td>
+</tr>
+<tr class="SectionBegin">
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">=</td>
+<td class="TextItemSame">&nbsp;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># ============================================================================</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># ============================================================================</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># Application Configuration</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># Application Configuration</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># All PUBLIC__ prefixed variables are automatically merged into config.server.ts</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># All PUBLIC__ prefixed variables are automatically merged into config.server.ts</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># Use double underscore (__) to target nested config paths</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSame"># Use double underscore (__) to target nested config paths</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame"># See docs/README-CONFIG.md for complete documentation</td>
+<td class="AlignCenter">&nbsp;</td>
 <td class="TextItemSame"># See docs/README-CONFIG.md for complete documentation</td>
 </tr>
 <tr class="SectionMiddle">
@@ -242,14 +322,14 @@ Right file: C:\Users\tzarr\sfn-june-workshop\.env &nbsp;
 <td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;id&quot;: &quot;<span class="TextSegSigDiff">MarketStreet</span>&quot;,</td>
 </tr>
 <tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;defaultLocale&quot;: &quot;en-GB&quot;,</td>
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;defaultLocale&quot;: &quot;en-<span class="TextSegSigDiff">GB</span>&quot;,</td>
 <td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;defaultLocale&quot;: &quot;en-GB&quot;,</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;defaultLocale&quot;: &quot;en-<span class="TextSegSigDiff">US</span>&quot;,</td>
 </tr>
 <tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;defaultCurrency&quot;: &quot;GBP&quot;,</td>
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;defaultCurrency&quot;: &quot;<span class="TextSegSigDiff">GBP</span>&quot;,</td>
 <td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;defaultCurrency&quot;: &quot;GBP&quot;,</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;defaultCurrency&quot;: &quot;<span class="TextSegSigDiff">USD</span>&quot;,</td>
 </tr>
 <tr class="SectionMiddle">
 <td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;supportedLocales&quot;: [</td>
@@ -257,19 +337,34 @@ Right file: C:\Users\tzarr\sfn-june-workshop\.env &nbsp;
 <td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span>&quot;supportedLocales&quot;: [</td>
 </tr>
 <tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span>{<span class="TextSegSigDiff">&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;en-US&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;USD&quot;},</span></td>
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">{</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;en-US&quot;,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;en-US&quot;,</span><span class="TextSegInsigDiff"> </span>&quot;preferredCurrency&quot;: &quot;USD&quot;<span class="TextSegSigDiff">},</span></td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span>&quot;preferredCurrency&quot;: &quot;USD&quot;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;da-DK&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;</span>},</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff"> </span>},</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span>{<span class="TextSegSigDiff">&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;de-DE&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;},</span></td>
 <td class="AlignCenter">&nbsp;</td>
 <td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span>{</td>
 </tr>
 <tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{</span>&quot;id&quot;:<span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;da-DK&quot;,</span> &quot;<span class="TextSegSigDiff">preferredCurrency</span><span class="TextSegSigDiff">&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;}</span>,</td>
-<td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>&quot;id&quot;: &quot;<span class="TextSegSigDiff">e</span><span class="TextSegSigDiff">n-GB&quot;</span>,</td>
-</tr>
-<tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;de-DE&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;},</span></td>
-<td class="AlignCenter">&nbsp;</td>
 <td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;en-GB&quot;,</span></td>
 </tr>
 <tr class="SectionMiddle">
 <td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;en-GB&quot;,</span><span class="TextSegInsigDiff"> </span>&quot;preferredCurrency&quot;: &quot;GBP&quot;<span class="TextSegSigDiff">},</span></td>
@@ -277,19 +372,19 @@ Right file: C:\Users\tzarr\sfn-june-workshop\.env &nbsp;
 <td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span>&quot;preferredCurrency&quot;: &quot;GBP&quot;</td>
 </tr>
 <tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;es-MX&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;USD&quot;},</span></td>
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;es-MX&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;USD&quot;</span>},</td>
 <td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">}</span></td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp;&nbsp; </span><span class="TextSegInsigDiff"> </span>},</td>
 </tr>
 <tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;fi-FI&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;},</span></td>
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span>{<span class="TextSegSigDiff">&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;fi-FI&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;},</span></td>
 <td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSame">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span>{</td>
 </tr>
 <tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;fr-FR&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;},</span></td>
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{</span>&quot;id&quot;: &quot;<span class="TextSegSigDiff">fr-FR&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;}</span>,</td>
 <td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSame">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; </span>&quot;id&quot;: &quot;<span class="TextSegSigDiff">ja-J</span><span class="TextSegSigDiff">P</span><span class="TextSegSigDiff">&quot;</span>,</td>
 </tr>
 <tr class="SectionMiddle">
 <td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;it-IT&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;},</span></td>
@@ -297,14 +392,14 @@ Right file: C:\Users\tzarr\sfn-june-workshop\.env &nbsp;
 <td class="TextItemSame">&nbsp;</td>
 </tr>
 <tr class="SectionMiddle">
-<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;ja-JP&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;JPY&quot;},</span></td>
+<td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;ja-JP&quot;,</span><span class="TextSegInsigDiff"> </span>&quot;preferredCurrency&quot;: &quot;JPY&quot;<span class="TextSegSigDiff">},</span></td>
 <td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSame">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span>&quot;preferredCurrency&quot;: &quot;JPY&quot;</td>
 </tr>
 <tr class="SectionMiddle">
 <td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;ko-KR&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;KRW&quot;},</span></td>
 <td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSame">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp; &nbsp; </span><span class="TextSegInsigDiff"> </span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">}</span></td>
 </tr>
 <tr class="SectionMiddle">
 <td class="TextItemSigMod"><span class="TextSegSigDiff">#</span><span class="TextSegInsigDiff">&nbsp; &nbsp; &nbsp; </span><span class="TextSegSigDiff">{&quot;id&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;nl-NL&quot;,</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;preferredCurrency&quot;:</span><span class="TextSegInsigDiff"> </span><span class="TextSegSigDiff">&quot;EUR&quot;},</span></td>
@@ -354,7 +449,17 @@ Right file: C:\Users\tzarr\sfn-june-workshop\.env &nbsp;
 <tr class="SectionMiddle">
 <td class="TextItemSame">&nbsp;</td>
 <td class="AlignCenter">&nbsp;</td>
-<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">&quot;GBP&quot;</span></td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">&quot;USD&quot;,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">&quot;GBP&quot;,</span></td>
+</tr>
+<tr class="SectionMiddle">
+<td class="TextItemSame">&nbsp;</td>
+<td class="AlignCenter">&nbsp;</td>
+<td class="TextItemSigMod"><span class="TextSegInsigDiff">&nbsp;&nbsp; &nbsp;&nbsp; </span><span class="TextSegSigDiff">&quot;JPY&quot;</span></td>
 </tr>
 <tr class="SectionMiddle">
 <td class="TextItemSame">&nbsp;</td>
