@@ -1,10 +1,17 @@
-Name,Value,Handlebar,Environment variable (.env file or Managed Runtime),Sourced from
-projectSlug,,{YourProjectSlug},MRT_PROJECT,Business Manager post scaffold or Managed Runtime - your project name
-environment,,{YourEnvironment},MRT_TARGET,Business Manager post scaffold or Managed Runtime - your environment under the project
-clientId,,{YourClientId},PUBLIC__app__commerce__api__clientId,.csv file from Option A or SLAS Admin tool
-slasSecret,,{YourSlasSecret},COMMERCE_API_SLAS_SECRET,.csv file from Option A or SLAS Admin tool - must be collected on creation if using SLAS Admin
-privateKeyEnabled,true ,{YourPrivateKeyBoolean},PUBLIC__app__commerce__api__privateKeyEnabled,Hard code to true
-siteId,MarketStreet,{YourSiteId},PUBLIC__app__commerce__api__siteId,Business Manager → Administration → Sites → Manage Sites
-organizationId,,{YourOrganizationId},PUBLIC__app__commerce__api__organizationId,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
-shortCode,,{YourShortCode},PUBLIC__app__commerce__api__shortCode,Business Manager: Administration → Site Development → Salesforce Commerce API Settings
-defaultSiteId,MarketStreet,{YourDefaultSiteId},PUBLIC__app__defaultSiteId,Business Manager: Site ID value for the one scaffolded as a storefront
+Name,Example Value,Handlebar,Environment variable (.env file or Managed Runtime),Sourced from,Screenshot 1,Screenshot 2
+MRT_PROJECT,zarrth-sfn-implready,{MRT_PROJECT},MRT_PROJECT,Typically your SiteId in Business Manager post scaffolding or your project name in Managed Runtim,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_PROJECT.png,
+MRT_TARGET,zarrth-sfn,{MRT_TARGET},MRT_TARGET,Business Manager post scaffolding or Managed Runtime - your environment under the project,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_TARGET.png,
+MRT_deploymentUrl,marketstreb1fcea6f9b884202.zzpe-284.my.commercecloud.salesforce.com,{MRT_deploymentUrl},,Business Manager post scaffolding in Administration → Sites → Storefronts → MarketStreet → Environments → eCDN → Expand Routing Rule,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_deploymentUrl.png,
+B2C_SLAS_clientId,09e75e19-f7c9-42ef-8575-d586c6******,{B2C_SLAS_clientId},,.csv file from Option A or SLAS Admin tool,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionA.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionBandC.png
+B2C_SLAS_SECRET,*****KL-wwfnufOlaa6hEqi*****sTVInv****5p_OE,{B2C_SLAS_SECRET},COMMERCE_API_SLAS_SECRET,.csv file from Option A or SLAS Admin tool - must be collected on creation if using SLAS Admin,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionA.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_SECRET_OptionBandC.png
+B2C_privateKeyEnabled,TRUE,{B2C_privateKeyEnabled},PUBLIC__app__commerce__api__privateKeyEnabled,Set this to true,,
+B2C_siteId,MarketStreet,{B2C_yourSiteId},PUBLIC__app__commerce__api__siteId,Business Manager → Administration → Sites → Manage Sites,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_siteId.png,
+B2C_organizationId,f_ecom_zzpe_284,{B2C_organizationId},PUBLIC__app__commerce__api__organizationId,Business Manager: Administration → Site Development → Salesforce Commerce API Settings,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/1883ee33d2b3b6866af8f4f7534cc7db14d74178/img/B2C_organizationId.png,
+B2C_shortCode,kv7kzm78,{B2C_shortCode},PUBLIC__app__commerce__api__shortCode,Business Manager: Administration → Site Development → Salesforce Commerce API Settings,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_shortCode.png,
+B2C_hostname,zzpe-284.dx.commercecloud.salesforce.com,{B2C_hostName},,The initial part of your sandbox URL between the protocol and path is the hostname.,,
+B2C_realm,zzpe,{B2C_realm},,The initial part of your sandbox URL between the protocol and the first dash (-) before the first dot (.) in the hostname.,,
+B2C_instance,284,{B2C_instance},,The initial part of your sandbox URL between the protocol and after the first dash (-) before the first dot (.) in the hostname. In sandboxes. Typically numeric.,,
+B2C_subdomain,zzpe-284,{B2C_subdomain},,The initial part of your B2C hostname before the first dot (.),,
+B2C_defaultSiteId,MarketStreet,{B2C_defaultSiteId},PUBLIC__app__defaultSiteId,Business Manager: Site ID value for the one scaffolded as a storefront,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_siteId.png,
+ORG_username,zarrthvader2@b2c-sfn-june-26.org,{ORG_username},,"Verify Your Account Email from support. This looks like an email address, but it isn’t although there’s an email backing it.",https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_username.png,
+ORG_Id,00Dfn00000GYzB7,{ORG_Id},,Setup → Company Information or Workshop Email with subject: Salesforce Org Environment Details,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_Id_CompanyInfo.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_Id_Email.png
