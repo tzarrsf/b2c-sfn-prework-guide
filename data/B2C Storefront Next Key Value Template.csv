@@ -1,20 +1,31 @@
-Name,Example Value,Handlebar,Environment variable (.env file or Managed Runtime),Sourced from,Screenshot 1,Screenshot 2,Screenshot 3
-MRT_PROJECT,marketstreet-e****b,{MRT_PROJECT},MRT_PROJECT,The Project Id (not name) in the Managed Runtime,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_PROJECT.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_PROJECT2.png,
-MRT_TARGET,marketstre-****ea6f,{MRT_TARGET},MRT_TARGET,Business Manager post scaffolding or Managed Runtime,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_TARGET.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_TARGET2.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_TARGET3.png
-MRT_deploymentUrl,https://marketstreb1fcea6f9b884202.zzpe-089.my.commercecloud.salesforce.com,{MRT_deploymentUrl},,Business Manager post scaffolding in Administration → Sites → Storefronts → MarketStreet → Environments → eCDN → Expand Routing Rule,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_deploymentUrl.png,,
-B2C_SLAS_clientId,09e75e19-f7c9-42ef-8575-d586c6******,{B2C_SLAS_clientId},,.csv file from Option A or SLAS Admin tool,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionA.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionBandC.png,
-B2C_SLAS_SECRET,*****KL-wwfnufOlaa6hEqi*****sTVInv****5p_OE,{B2C_SLAS_SECRET},COMMERCE_API_SLAS_SECRET,.csv file from Option A or SLAS Admin tool - must be collected on creation if using SLAS Admin,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionA.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_SECRET_OptionBandC.png,
-B2C_privateKeyEnabled,TRUE,{B2C_privateKeyEnabled},PUBLIC__app__commerce__api__privateKeyEnabled,Set this to true,,,
-B2C_siteId,MarketStreet,{B2C_yourSiteId},PUBLIC__app__commerce__api__siteId,Business Manager → Administration → Sites → Manage Sites,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_siteId.png,,
-B2C_organizationId,f_ecom_zzpe_089,{B2C_organizationId},PUBLIC__app__commerce__api__organizationId,Business Manager: Administration → Site Development → Salesforce Commerce API Settings,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_organizationId.png,,
-B2C_shortCode,kv7kzm78,{B2C_shortCode},PUBLIC__app__commerce__api__shortCode,Business Manager: Administration → Site Development → Salesforce Commerce API Settings,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_shortCode.png,,
-B2C_hostname,zzpe-089.dx.commercecloud.salesforce.com,{B2C_hostName},,The initial part of your sandbox URL between the protocol and path is the hostname.,,,
-B2C_realm,zzpe,{B2C_realm},,The initial part of your sandbox URL between the protocol and the first dash (-) before the first dot (.) in the hostname.,,,
-B2C_instance,89,{B2C_instance},,The initial part of your sandbox URL between the protocol and after the first dash (-) before the first dot (.) in the hostname. In sandboxes. Typically numeric.,,,
-B2C_subdomain,zzpe-089,{B2C_subdomain},,The initial part of your B2C hostname before the first dot (.),,,
-B2C_defaultSiteId,MarketStreet,{B2C_defaultSiteId},PUBLIC__app__defaultSiteId,Business Manager: Site ID value for the one scaffolded as a storefront,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_siteId.png,,
-ORG_username,zarrthvader2@b2c-sfn-june-26.org,{ORG_username},,"Verify Your Account Email from support. This looks like an email address, but it isn’t although there’s an email backing it.",https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_username.png,,
-ORG_Id,00Dfn00000GYzB7,{ORG_Id},,Setup → Company Information or Workshop Email with subject: Salesforce Org Environment Details,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_Id_CompanyInfo.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_Id_Email.png,
-ORG_serviceChannelId,0N9fn000000GaZ1CAK,{ORG_serviceChannelId},,Query Salesforce org via script (upcoming activity),,,
-ORG_queueId,00Gfn000004F8cTEAS,{ORG_queueId},,Query Salesforce org via script (upcoming activity),,,
-ORG_copilotId,0Xxfn0000006ZUXCA2,{ORG_copilotId},,Query Salesforce org via script (upcoming activity),,,
+Name,Example Value,Handlebar,Used in,Sourced from,Screenshot 1,Screenshot 2,Screenshot 3
+Managed Runtime project Id,marketstreet-e7032b,"{MRT_PROJECT}
+.env variable: MRT_PROJECT",Configure Your Environment File; Deploy Bundle to Managed Runtime,The Project Id (not name) in the Managed Runtime,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_PROJECT.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_PROJECT2.png,
+Managed Runtime target,marketstre-b1fcea6f,"{MRT_TARGET}
+.env variable: MRT_TARGET",Configure Your Environment File; Deploy Bundle to Managed Runtime,Business Manager post scaffolding or Managed Runtime,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_TARGET.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_TARGET2.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_TARGET3.png
+Managed Runtime deployment URL,https://example.zzpe-209.my.commercecloud.salesforce.com,{MRT_deploymentUrl},Deploy Bundle to Managed Runtime; Access Deployed Storefront,Business Manager post scaffolding in Administration → Sites → Storefronts → MarketStreet → Environments → eCDN → Expand Routing Rule,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/MRT_deploymentUrl.png,,
+Account Manager username,user@example.com,{B2C_username},Log in to the Managed Runtime; Scaffold the Storefront Next Project,Username (email address) for Account Manager,,,
+Account Manager password (Secret),****************,{B2C_password},Log in to the Managed Runtime; Scaffold the Storefront Next Project,Password for Account Manager. Keep it private.,,,
+WebDAV access key (Secret),****************,{B2C_webDAVKey},Scaffold the Storefront Next Project,The WebDAV access key for your sandbox user. Keep it private.,,,
+SLAS client Id,CLIENT_ID_XXXX,"{B2C_SLAS_clientId}
+.env variable: PUBLIC__app__commerce__api__clientId",Configure Your Environment File; Run Locally and Verify,.csv file from Option A or SLAS Admin tool,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionA.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionBandC.png,
+SLAS client secret (Secret),************************************,"{B2C_SLAS_SECRET}
+.env variable: COMMERCE_API_SLAS_SECRET",Configure Your Environment File; Run Locally and Verify,.csv file from Option A or SLAS Admin tool - must be collected on creation if using SLAS Admin,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_clientId_OptionA.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_SLAS_SECRET_OptionBandC.png,
+SLAS private client enabled,true,"{B2C_privateKeyEnabled}
+.env variable: PUBLIC__app__commerce__api__privateKeyEnabled",Configure Your Environment File,Set this to true,,,
+Site Id,MarketStreet,"{B2C_siteId} / {B2C_defaultSiteId}
+.env variable: PUBLIC__app__defaultSiteId",Configure Your Environment File; Run Locally and Verify,Business Manager → Administration → Sites → Manage Sites,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_siteId.png,,
+Commerce API organization Id,f_ecom_zzpe_209,"{B2C_organizationId}
+.env variable: PUBLIC__app__commerce__api__organizationId",Configure Your Environment File,Business Manager: Administration → Site Development → Salesforce Commerce API Settings,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_organizationId.png,,
+Commerce API short code,tkvkx39f,"{B2C_shortCode}
+.env variable: PUBLIC__app__commerce__api__shortCode",Configure Your Environment File,Business Manager: Administration → Site Development → Salesforce Commerce API Settings,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/B2C_shortCode.png,,
+Sandbox host name,zzpe-209.dx.commercecloud.salesforce.com,{B2C_hostName},Scaffold the Storefront Next Project; Configure Your Environment File,The initial part of your sandbox URL between the protocol and path is the hostname.,,,
+Realm,zzpe,{B2C_realm},Scaffold the Storefront Next Project; Configure Your Environment File,The initial part of your sandbox URL between the protocol and the first dash (-) before the first dot (.) in the hostname.,,,
+Instance,209,{B2C_instance},Scaffold the Storefront Next Project; Configure Your Environment File,The initial part of your sandbox URL between the protocol and after the first dash (-) before the first dot (.) in the hostname. In sandboxes. Typically numeric.,,,
+Subdomain,zzpe-209,{B2C_subdomain},Scaffold the Storefront Next Project; Configure Your Environment File,"Concatenation of B2C_realm, a single dash and B2C_instance. The initial part of your B2C hostname before the first dot (.)",,,
+Tenant,zzpe_209,{B2C_tenant},Scaffold the Storefront Next Project; Configure Your Environment File,The B2C_subdomain with underscore replacing dash,,,
+Org username,user@example.com,{ORG_username},CLI commands (--target-org); Verify Your Account,"Verify Your Account Email from support. This looks like an email address, but it isn’t although there’s an email backing it.",https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_username.png,,
+Org Id,00DXXXXXXXXXXXX,{ORG_Id},Salesforce org setup; Agentforce Guided Shopping activities,Setup → Company Information or Workshop Email with subject: Salesforce Org Environment Details,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_Id_CompanyInfo.png,https://github.com/tzarrsf/b2c-sfn-prework-guide/blob/main/img/ORG_Id_Email.png,
+Service channel Id,0N9XXXXXXXXXXXXXXX,{ORG_serviceChannelId},Agentforce Guided Shopping activities,Query Salesforce org via script (upcoming activity),,,
+Queue Id,00GXXXXXXXXXXXXXXX,{ORG_queueId},Agentforce Guided Shopping activities,Query Salesforce org via script (upcoming activity),,,
+Copilot Id,0XxXXXXXXXXXXXXXXX,{ORG_copilotId},Agentforce Guided Shopping activities,Query Salesforce org via script (upcoming activity),,,
